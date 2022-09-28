@@ -44,6 +44,12 @@ wn.bgpic("maze3.png") # other file names should be maze2.png, maze3.png
 # turn robot left with turn_left()
 # sample for loop:
 
+for step in range(2):
+  robot.forward(50)
+  robot.right(90)
+  robot.forward(100)
+  robot.left(90)
+  robot.forward(50)
 #---- end robot movement 
 
 wn.mainloop()
